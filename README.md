@@ -1,4 +1,4 @@
-The following Spring framework project consists of basic endpoints to manage a book store's database system by performing the following operations.
+The following Spring framework project consists of basic endpoints to manage a book store's database system by performing the following operations. 🐥
 These endpoints are developed to maintain the records:
 
 1) /getAllBooks - This returns all the rows present in the H2 database
