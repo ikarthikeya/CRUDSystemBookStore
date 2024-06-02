@@ -16,10 +16,6 @@ public class BookController {
     @Autowired
     private BookRepo bookRepo;
 
-    /**
-     * To get all books
-     * @return
-     */
     @GetMapping("/getAllBooks")
     public ResponseEntity<List<Book>> getAllBooks(){
         try{
