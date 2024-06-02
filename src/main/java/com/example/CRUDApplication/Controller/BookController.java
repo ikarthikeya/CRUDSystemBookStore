@@ -30,6 +30,12 @@ public class BookController {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    /**
+     * Controller to get books by id
+     * @param id
+     * @return
+     */
     @GetMapping("/getBookById/{id}")
     public ResponseEntity<Book> getBookById(@PathVariable Long id){
         Optional<Book> bookData = bookRepo.findById(id);
